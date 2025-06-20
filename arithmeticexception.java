@@ -20,7 +20,7 @@ public class arithmeticexception {
         }
     }
 
-    public static int division(int n, int num1) throws Exception {
+    public static int division(int n, int num1) throws ArithmeticException {
         if (num1 == 0) {
             throw new ArithmeticException("Value is zero");
         }
